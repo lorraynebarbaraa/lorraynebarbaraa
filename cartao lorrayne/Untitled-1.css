@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Sen:wght@400;700&display=swap'); /* importando a fonte do Google Fonts - importe a fonte de sua preferência */
+
+.cartao { 
+  width: 360px; /* não alterar */
+  height: 520px; /* não alterar */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* altere os nomes das classes e id para o seu nome, faça o mesmo no html (exceto para a classe cartão) */
+
+#nahGermuts {
+  background-image: url('imag-fundo.jpg'); /* altere com outra imagem ou cor */
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.imagem__perfil {
+  width: 150px; /* não alterar para maior do que 360px */
+  border-radius: 50%;
+}
+
+.titulo__lorrayne, .subtitulo__lorrayne {
+  font-family: 'Sen', sans-serif; /* use a fonte que preferir, mas lembre de importá-la na linha 1*/
+  text-align: center;
+}
+
+.titulo__lorrayne {
+  font-size: 20px;
+}
+
+.subtitulo__lorrayne {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.links__lorrayne {
+  display: flex;
+  gap: 12px;
+}
+
+.links__lorrayne img {
+  transition: .6s;
+}
+
+.links__lorrayne img:hover {
+  transform: scale(1.2);
+}
